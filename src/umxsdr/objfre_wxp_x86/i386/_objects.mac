@@ -1,0 +1,19 @@
+
+
+386_OBJECTS=\
+ $(OBJ_PATH)\$O\main.obj \
+ $(OBJ_PATH)\$O\dot11main.obj \
+ $(OBJ_PATH)\$O\mac.obj \
+ $(OBJ_PATH)\$O\mgmt.obj \
+
+
+
+
+
+# lowercased
+BASEDIR=c:\winddk\7600.16385.1
+OBJECT_ROOT=c:\winddk\7600.16385.1
+MAKEDIR_LOWERCASE=c:\sorasdk1.7\src\umxsdr
+OBJ_PATH=c:\sorasdk1.7\src\umxsdr
+CONCURRENT_MIDL=0
+CONCURRENT_MANIFEST_BUILD=0

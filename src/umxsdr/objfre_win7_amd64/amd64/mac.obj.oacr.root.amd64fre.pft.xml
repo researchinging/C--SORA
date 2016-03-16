@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+<OACRDEFECTCOUNT>2</OACRDEFECTCOUNT>
+<OACRERRORCOUNT>0</OACRERRORCOUNT>
+<DEFECT _seq="1"><SFA><LINE>345</LINE><COLUMN>6</COLUMN><FILENAME>mac.cpp</FILENAME><FILEPATH>c:\sorasdk1.7\src\umxsdr\</FILEPATH></SFA><DEFECTCODE>28112</DEFECTCODE><DESCRIPTION>A variable (mgmtPkt) which is accessed via an Interlocked function must always be accessed via an Interlocked function. See line 347:  It is not always safe to access a variable which is accessed via the Interlocked* family of functions in any other way.</DESCRIPTION><FUNCTION>Dot11aSendProc</FUNCTION><FUNCLINE>335</FUNCLINE><PATH/></DEFECT>
+<DEFECT _seq="2"><SFA><LINE>422</LINE><COLUMN>6</COLUMN><FILENAME>mac.cpp</FILENAME><FILEPATH>c:\sorasdk1.7\src\umxsdr\</FILEPATH></SFA><DEFECTCODE>28112</DEFECTCODE><DESCRIPTION>A variable (mgmtPkt) which is accessed via an Interlocked function must always be accessed via an Interlocked function. See line 424:  It is not always safe to access a variable which is accessed via the Interlocked* family of functions in any other way.</DESCRIPTION><FUNCTION>Dot11bSendProc</FUNCTION><FUNCLINE>413</FUNCLINE><PATH/></DEFECT>
+</DEFECTS>
